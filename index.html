@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthTeam v3.0 — AI 内阁 | 人类认知进化的最后一块拼图</title>
+    <meta name="description" content="TruthTeam v3.0：4-Agent认知进化系统。不是让AI更懂你，而是让你更懂你自己。完整用户档案、7×24被动监控、8个顶级思维模型、独立认知主体。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-mark">◈</div>
+            <div class="loader-text">
+                <span class="loader-line">TRUTH</span>
+                <span class="loader-line">TEAM</span>
+            </div>
+            <div class="loader-version">v3.0</div>
+            <div class="loader-track">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-mark">◈</span>
+                <span class="logo-word">TruthTeam</span>
+            </a>
+            <div class="nav-links">
+                <a href="#crisis" class="nav-link">危机</a>
+                <a href="#upgrades" class="nav-link">升级</a>
+                <a href="#archive" class="nav-link">档案</a>
+                <a href="#agents" class="nav-link">内阁</a>
+                <a href="#models" class="nav-link">思维</a>
+                <a href="#philosophy" class="nav-link">理念</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-orb orb-gold"></div>
+        <div class="hero-orb orb-blue"></div>
+        <div class="hero-content">
+            <div class="hero-badge reveal-up">
+                <span class="badge-pulse"></span>
+                <span class="badge-text">4-Agent Cognitive Evolution System</span>
+            </div>
+            <h1 class="hero-title reveal-up">
+                <span class="title-line">不是让 AI</span>
+                <span class="title-line">更懂你</span>
+                <span class="title-line highlight">而是让你</span>
+                <span class="title-line highlight">更懂你自己</span>
+            </h1>
+            <p class="hero-subtitle reveal-up">
+                TruthTeam <span class="version-tag">v3.0</span> — 人类花了十年教 AI 理解人类，<br>
+                却忘了最关键的问题：<strong>人类自己，真的理解自己吗？</strong>
+            </p>
+            <div class="hero-cta reveal-up">
+                <a href="#upgrades" class="btn btn-primary">
+                    <span>探索 v3.0</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
+                <a href="#crisis" class="btn btn-secondary">阅读洞察</a>
+            </div>
+            <div class="hero-stats reveal-up">
+                <div class="stat">
+                    <div class="stat-number" data-count="4">0</div>
+                    <div class="stat-label">智能体</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" data-count="35">0</div>
+                    <div class="stat-label">档案文件</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-label">思维模型</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" data-count="0" data-suffix="∞">∞</div>
+                    <div class="stat-label">7×24 监控</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- Attention Crisis Section -->
+    <section id="crisis" class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">THE ATTENTION CRISIS</div>
+                <h2 class="section-title reveal-up">人类注意力危机</h2>
+                <p class="section-desc reveal-up">你每天管理 8+ 个 AI 工具，但你的注意力正在被耗尽</p>
+            </div>
+            <div class="crisis-grid">
+                <div class="crisis-card crisis-wrong reveal-up">
+                    <div class="crisis-header">
+                        <div class="crisis-icon">✕</div>
+                        <h3>传统 AI 模式</h3>
+                    </div>
+                    <div class="crisis-items">
+                        <div class="crisis-item">
+                            <span class="ci-num">01</span>
+                            <span class="ci-text">ChatGPT 在等你的提示词</span>
+                        </div>
+                        <div class="crisis-item">
+                            <span class="ci-num">02</span>
+                            <span class="ci-text">Claude 在等你的上下文</span>
+                        </div>
+                        <div class="crisis-item">
+                            <span class="ci-num">03</span>
+                            <span class="ci-text">AutoGPT 在等你的目标定义</span>
+                        </div>
+                        <div class="crisis-item">
+                            <span class="ci-num">04</span>
+                            <span class="ci-text">你的团队在等你的决策</span>
+                        </div>
+                    </div>
+                    <div class="crisis-result">
+                        <span class="cr-label">结果</span>
+                        <p>你的注意力被耗尽，AI 的算力被浪费</p>
+                    </div>
+                </div>
+                <div class="crisis-vs reveal-up">VS</div>
+                <div class="crisis-card crisis-truth reveal-up">
+                    <div class="crisis-header">
+                        <div class="crisis-icon">◉</div>
+                        <h3>TruthTeam 模式</h3>
+                    </div>
+                    <div class="crisis-items">
+                        <div class="crisis-item">
+                            <span class="ci-num">01</span>
+                            <span class="ci-text">TruthSeeker 主动挖掘你的真相</span>
+                        </div>
+                        <div class="crisis-item">
+                            <span class="ci-num">02</span>
+                            <span class="ci-text">UserAvatar 自主制定目标与行动</span>
+                        </div>
+                        <div class="crisis-item">
+                            <span class="ci-num">03</span>
+                            <span class="ci-text">EliteAdvisor 7×24 监督质量</span>
+                        </div>
+                        <div class="crisis-item">
+                            <span class="ci-num">04</span>
+                            <span class="ci-text">ExternalConnector 全知全能执行</span>
+                        </div>
+                    </div>
+                    <div class="crisis-result truth-result">
+                        <span class="cr-label">结果</span>
+                        <p>你只需做决策，AI 团队负责一切</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Five Core Upgrades Section -->
+    <section id="upgrades" class="section-gradient">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">v3.0 EVOLUTION</div>
+                <h2 class="section-title reveal-up">五大核心升级</h2>
+                <p class="section-desc reveal-up">从 v2.0 的单文件画像，到 v3.0 的完整认知操作系统</p>
+            </div>
+            <div class="upgrades-timeline">
+                <div class="upgrade-item reveal-up" data-index="01">
+                    <div class="upgrade-marker">
+                        <div class="marker-ring"></div>
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="upgrade-content">
+                        <div class="upgrade-visual">
+                            <div class="vis-files">
+                                <div class="vf-stack">
+                                    <div class="vf-file" style="--delay:0">00-identity.md</div>
+                                    <div class="vf-file" style="--delay:1">02-true-goals.md</div>
+                                    <div class="vf-file" style="--delay:2">07-traits.md</div>
+                                    <div class="vf-file" style="--delay:3">11-pending.md</div>
+                                </div>
+                                <div class="vf-count">35<span>+</span></div>
+                            </div>
+                        </div>
+                        <div class="upgrade-info">
+                            <h3>完整用户资料库</h3>
+                            <p class="upgrade-en">Structured User Archive</p>
+                            <p class="upgrade-desc">
+                                v2.0：所有信息挤在单个 <code>user_profile.md</code> 中。<br>
+                                v3.0：35+ 文件的档案系统，含 12 章画像、项目档案、关系图谱、对话历史、Git 版本控制。
+                                <strong>每个 Agent 只读它需要的信息。</strong>
+                            </p>
+                            <div class="upgrade-tags">
+                                <span>12 章画像</span>
+                                <span>项目档案</span>
+                                <span>Git 版本控制</span>
+                                <span>关系图谱</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upgrade-item reveal-up" data-index="02">
+                    <div class="upgrade-marker">
+                        <div class="marker-ring"></div>
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="upgrade-content reverse">
+                        <div class="upgrade-visual">
+                            <div class="vis-monitor">
+                                <div class="mon-screen">
+                                    <div class="mon-scanline"></div>
+                                    <div class="mon-data">
+                                        <div class="md-row"><span class="md-time">06:00</span><span class="md-status ok">SCAN</span></div>
+                                        <div class="md-row"><span class="md-time">12:00</span><span class="md-status ok">SCAN</span></div>
+                                        <div class="md-row"><span class="md-time">18:00</span><span class="md-status warn">CONFLICT</span></div>
+                                        <div class="md-row"><span class="md-time">00:00</span><span class="md-status ok">SCAN</span></div>
+                                    </div>
+                                </div>
+                                <div class="mon-label">TruthSeeker Monitor</div>
+                            </div>
+                        </div>
+                        <div class="upgrade-info">
+                            <h3>被动监控</h3>
+                            <p class="upgrade-en">7×24 Passive Monitoring</p>
+                            <p class="upgrade-desc">
+                                TruthSeeker 不再只在对话时工作。每 6 小时自动扫描所有 Agent 的会话记录，
+                                增量读取、交叉验证、检测矛盾。P0 级矛盾立即通知 UserAvatar。
+                                <strong>你的 AI 内阁在后台持续"对账"。</strong>
+                            </p>
+                            <div class="upgrade-tags">
+                                <span>增量扫描</span>
+                                <span>矛盾检测</span>
+                                <span>P0 告警</span>
+                                <span>交叉验证</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upgrade-item reveal-up" data-index="03">
+                    <div class="upgrade-marker">
+                        <div class="marker-ring"></div>
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="upgrade-content">
+                        <div class="upgrade-visual">
+                            <div class="vis-brains">
+                                <div class="vb-brain active" data-brain="musk">Musk</div>
+                                <div class="vb-brain" data-brain="bezos">Bezos</div>
+                                <div class="vb-brain" data-brain="huang">黄仁勋</div>
+                                <div class="vb-brain" data-brain="zhang">张一鸣</div>
+                                <div class="vb-brain" data-brain="jobs">Jobs</div>
+                                <div class="vb-brain" data-brain="buffett">Buffett</div>
+                                <div class="vb-brain" data-brain="thiel">Thiel</div>
+                                <div class="vb-brain" data-brain="munger">Munger</div>
+                            </div>
+                        </div>
+                        <div class="upgrade-info">
+                            <h3>八个顶级思维模型</h3>
+                            <p class="upgrade-en">8 Elite Thinking Models</p>
+                            <p class="upgrade-desc">
+                                EliteAdvisor 携带 8 个可切换的思维模型，根据你的具体问题调用最合适的思考方式：
+                                做产品 → Jobs 模式，做战略 → Thiel 模式，做投资 → Buffett 模式，做技术 → Huang 模式……
+                                <strong>你拥有整个顶级导师团。</strong>
+                            </p>
+                            <div class="upgrade-tags">
+                                <span>可切换模型</span>
+                                <span>场景适配</span>
+                                <span>第一性原理</span>
+                                <span>多元思维</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upgrade-item reveal-up" data-index="04">
+                    <div class="upgrade-marker">
+                        <div class="marker-ring"></div>
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="upgrade-content reverse">
+                        <div class="upgrade-visual">
+                            <div class="vis-independence">
+                                <div class="vi-user">User</div>
+                                <div class="vi-arrow">
+                                    <svg viewBox="0 0 60 20"><path d="M0 10h50l-8-6m8 6l-8 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                                    <span>input</span>
+                                </div>
+                                <div class="vi-truthseeker">
+                                    <div class="vi-ts-label">TruthSeeker</div>
+                                    <div class="vi-ts-badges">
+                                        <span class="ts-badge doubt">存疑</span>
+                                        <span class="ts-badge verify">验证</span>
+                                        <span class="ts-badge conclude">独立推断</span>
+                                    </div>
+                                </div>
+                                <div class="vi-arrow">
+                                    <svg viewBox="0 0 60 20"><path d="M0 10h50l-8-6m8 6l-8 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                                    <span>truth</span>
+                                </div>
+                                <div class="vi-output">Archive</div>
+                            </div>
+                        </div>
+                        <div class="upgrade-info">
+                            <h3>独立性原则</h3>
+                            <p class="upgrade-en">Independence Principle</p>
+                            <p class="upgrade-desc">
+                                TruthSeeker 不是回声壁。它是独立的认知主体——有权指出你的矛盾，
+                                有权追问你回避的问题，有权基于证据得出与你不同的结论。
+                                <strong>大多数 AI 在"取悦用户"，TruthTeam 在"帮助用户看见真相"。</strong>
+                            </p>
+                            <div class="upgrade-tags">
+                                <span>独立判断</span>
+                                <span>矛盾指出</span>
+                                <span>灵活呈现</span>
+                                <span>不固执</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upgrade-item reveal-up" data-index="05">
+                    <div class="upgrade-marker">
+                        <div class="marker-ring"></div>
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="upgrade-content">
+                        <div class="upgrade-visual">
+                            <div class="vis-modes">
+                                <div class="vm-mode active" data-mode="explore">
+                                    <div class="vm-icon">🔍</div>
+                                    <div class="vm-name">探索</div>
+                                </div>
+                                <div class="vm-mode" data-mode="execute">
+                                    <div class="vm-icon">⚡</div>
+                                    <div class="vm-name">执行</div>
+                                </div>
+                                <div class="vm-mode" data-mode="decide">
+                                    <div class="vm-icon">🎯</div>
+                                    <div class="vm-name">决策</div>
+                                </div>
+                                <div class="vm-mode" data-mode="update">
+                                    <div class="vm-icon">🔄</div>
+                                    <div class="vm-name">更新</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="upgrade-info">
+                            <h3>四种对话模式</h3>
+                            <p class="upgrade-en">Four Dialogue Modes</p>
+                            <p class="upgrade-desc">
+                                探索模式 → 执行模式 → 决策模式 → 更新模式，系统根据你的真相建立进度自动切换。
+                                从"和一个聪明的朋友聊天"到"有一个秘书在后台工作"，无缝过渡。
+                            </p>
+                            <div class="upgrade-tags">
+                                <span>自动切换</span>
+                                <span>无缝过渡</span>
+                                <span>场景感知</span>
+                                <span>渐进信任</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Archive Visualization -->
+    <section id="archive" class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">USER ARCHIVE</div>
+                <h2 class="section-title reveal-up">你的认知档案</h2>
+                <p class="section-desc reveal-up">35+ 文件构成的结构化真相系统，Git 版本控制，全 Agent 共享</p>
+            </div>
+            <div class="archive-explorer reveal-up">
+                <div class="ae-sidebar">
+                    <div class="ae-folder active" data-folder="profile">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">01-profile</span>
+                        <span class="af-count">12</span>
+                    </div>
+                    <div class="ae-folder" data-folder="projects">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">02-projects</span>
+                        <span class="af-count">3</span>
+                    </div>
+                    <div class="ae-folder" data-folder="relationships">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">03-relationships</span>
+                        <span class="af-count">4</span>
+                    </div>
+                    <div class="ae-folder" data-folder="timeline">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">04-timeline</span>
+                        <span class="af-count">3</span>
+                    </div>
+                    <div class="ae-folder" data-folder="knowledge">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">05-knowledge</span>
+                        <span class="af-count">3</span>
+                    </div>
+                    <div class="ae-folder" data-folder="conversations">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">08-conversations</span>
+                        <span class="af-count">∞</span>
+                    </div>
+                    <div class="ae-folder" data-folder="reports">
+                        <span class="af-icon">📁</span>
+                        <span class="af-name">10-reports</span>
+                        <span class="af-count">3</span>
+                    </div>
+                </div>
+                <div class="ae-content">
+                    <div class="ae-panel active" data-panel="profile">
+                        <h4>01-profile / 详细画像</h4>
+                        <p>TruthSeeker 核心产出。12 章结构化画像，覆盖身份、物理现实、真实目标、认知限制、物理限制、动机、路径、特质、转折点、置信度、变更日志、待确认问题。</p>
+                        <div class="ae-files">
+                            <div class="aef-file"><span class="aef-num">00</span><span class="aef-name">identity.md</span><span class="aef-desc">核心身份标识</span></div>
+                            <div class="aef-file"><span class="aef-num">01</span><span class="aef-name">physical-reality.md</span><span class="aef-desc">物理现状</span></div>
+                            <div class="aef-file"><span class="aef-num">02</span><span class="aef-name">true-goals.md</span><span class="aef-desc">目标真相</span></div>
+                            <div class="aef-file"><span class="aef-num">03</span><span class="aef-name">cognitive-constraints.md</span><span class="aef-desc">认知限制</span></div>
+                            <div class="aef-file"><span class="aef-num">04</span><span class="aef-name">physical-constraints.md</span><span class="aef-desc">物理限制</span></div>
+                            <div class="aef-file"><span class="aef-num">05</span><span class="aef-name">motivation.md</span><span class="aef-desc">动机事实</span></div>
+                            <div class="aef-file"><span class="aef-num">06</span><span class="aef-name">path-facts.md</span><span class="aef-desc">路径事实</span></div>
+                            <div class="aef-file"><span class="aef-num">07</span><span class="aef-name">traits.md</span><span class="aef-desc">特质分析</span></div>
+                            <div class="aef-file"><span class="aef-num">08</span><span class="aef-name">turning-points.md</span><span class="aef-desc">关键转折点</span></div>
+                            <div class="aef-file"><span class="aef-num">09</span><span class="aef-name">confidence.md</span><span class="aef-desc">置信度评估</span></div>
+                            <div class="aef-file"><span class="aef-num">10</span><span class="aef-name">changelog.md</span><span class="aef-desc">更新日志</span></div>
+                            <div class="aef-file"><span class="aef-num">11</span><span class="aef-name">pending-questions.md</span><span class="aef-desc">待确认问题</span></div>
+                        </div>
+                    </div>
+                    <div class="ae-panel" data-panel="projects">
+                        <h4>02-projects / 项目档案</h4>
+                        <p>所有项目的完整上下文。活跃项目、已完成项目、失败项目，每个都有独立档案，包含目标、进度、障碍、决策记录。</p>
+                        <div class="ae-files">
+                            <div class="aef-file"><span class="aef-icon">🟢</span><span class="aef-name">active/</span><span class="aef-desc">活跃项目</span></div>
+                            <div class="aef-file"><span class="aef-icon">✅</span><span class="aef-name">completed/</span><span class="aef-desc">已完成</span></div>
+                            <div class="aef-file"><span class="aef-icon">❌</span><span class="aef-name">failed/</span><span class="aef-desc">失败记录</span></div>
+                        </div>
+                    </div>
+                    <div class="ae-panel" data-panel="relationships">
+                        <h4>03-relationships / 关系图谱</h4>
+                        <p>你的人际网络分析。支持者、消耗者、中立者，以及完整的网络拓扑图。</p>
+                        <div class="ae-files">
+                            <div class="aef-file"><span class="aef-icon">🤝</span><span class="aef-name">supporters.md</span><span class="aef-desc">支持者</span></div>
+                            <div class="aef-file"><span class="aef-icon">⚠️</span><span class="aef-name">drainers.md</span><span class="aef-desc">消耗者</span></div>
+                            <div class="aef-file"><span class="aef-icon">➖</span><span class="aef-name">neutrals.md</span><span class="aef-desc">中立者</span></div>
+                            <div class="aef-file"><span class="aef-icon">🕸️</span><span class="aef-name">network-map.md</span><span class="aef-desc">网络拓扑</span></div>
+                        </div>
+                    </div>
+                    <div class="ae-panel" data-panel="timeline">
+                        <h4>04-timeline / 人生时间线</h4>
+                        <p>你的人生事件记录、关键决策、转折点分析。</p>
+                    </div>
+                    <div class="ae-panel" data-panel="knowledge">
+                        <h4>05-knowledge / 知识库</h4>
+                        <p>技能清单、兴趣图谱、学习日志。</p>
+                    </div>
+                    <div class="ae-panel" data-panel="conversations">
+                        <h4>08-conversations / 对话历史</h4>
+                        <p>按日期归档的对话摘要。YYYY-MM/YYYY-MM-DD-summary.md 格式，可追溯、可检索。</p>
+                    </div>
+                    <div class="ae-panel" data-panel="reports">
+                        <h4>10-reports / 生成报告</h4>
+                        <p>各 Agent 的定期报告输出。</p>
+                        <div class="ae-files">
+                            <div class="aef-file"><span class="aef-icon">🔍</span><span class="aef-name">contradictions.md</span><span class="aef-desc">矛盾点报告</span></div>
+                            <div class="aef-file"><span class="aef-icon">🧠</span><span class="aef-name">elite-advisor/</span><span class="aef-desc">导师报告</span></div>
+                            <div class="aef-file"><span class="aef-icon">🎯</span><span class="aef-name">user-avatar/</span><span class="aef-desc">行动报告</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agent Architecture Section -->
+    <section id="agents" class="section-gradient-2">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">THE CABINET</div>
+                <h2 class="section-title reveal-up">四 Agent 认知进化系统</h2>
+                <p class="section-desc reveal-up">每个 Agent 都有独立的灵魂、信念和工作模式</p>
+            </div>
+            <div class="agent-flow reveal-up">
+                <div class="af-node af-user">
+                    <div class="afn-inner">
+                        <div class="afn-icon">👤</div>
+                        <div class="afn-name">Walker</div>
+                    </div>
+                </div>
+                <div class="af-arrow"><svg viewBox="0 0 40 20"><path d="M0 10h35l-5-5m5 5l-5 5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+                <div class="af-node af-truth">
+                    <div class="afn-inner">
+                        <div class="afn-icon">🔍</div>
+                        <div class="afn-name">TruthSeeker</div>
+                        <div class="afn-role">真相探寻者</div>
+                    </div>
+                    <div class="afn-glow truth-glow"></div>
+                </div>
+                <div class="af-arrow"><svg viewBox="0 0 40 20"><path d="M0 10h35l-5-5m5 5l-5 5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+                <div class="af-node af-avatar">
+                    <div class="afn-inner">
+                        <div class="afn-icon">🎯</div>
+                        <div class="afn-name">UserAvatar</div>
+                        <div class="afn-role">用户分身</div>
+                    </div>
+                    <div class="afn-glow avatar-glow"></div>
+                </div>
+                <div class="af-arrow"><svg viewBox="0 0 40 20"><path d="M0 10h35l-5-5m5 5l-5 5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+                <div class="af-node af-connector">
+                    <div class="afn-inner">
+                        <div class="afn-icon">🔌</div>
+                        <div class="afn-name">ExternalConnector</div>
+                        <div class="afn-role">外部对接</div>
+                    </div>
+                    <div class="afn-glow connector-glow"></div>
+                </div>
+                <div class="af-supervisor">
+                    <div class="afs-line"></div>
+                    <div class="af-node af-elite">
+                        <div class="afn-inner">
+                            <div class="afn-icon">🧠</div>
+                            <div class="afn-name">EliteAdvisor</div>
+                            <div class="afn-role">顶级顾问</div>
+                        </div>
+                        <div class="afn-glow elite-glow"></div>
+                    </div>
+                    <div class="afs-label">主动监督 · 每12小时</div>
+                </div>
+            </div>
+            <div class="agent-detail-cards">
+                <div class="adc-card reveal-up" data-agent="truth">
+                    <div class="adc-accent truth-accent"></div>
+                    <div class="adc-header">
+                        <div class="adc-icon">🔍</div>
+                        <div class="adc-info">
+                            <h3>TruthSeeker</h3>
+                            <span>真相探寻者 · 情报总长</span>
+                        </div>
+                    </div>
+                    <div class="adc-belief">
+                        <span class="adc-blabel">核心信念</span>
+                        <p>"用户的输出几乎一定有偏差、有错误、有自我欺骗。"</p>
+                    </div>
+                    <div class="adc-features">
+                        <div class="adcf-item">
+                            <span class="adcf-num">01</span>
+                            <span class="adcf-name">明镜复述</span>
+                            <span class="adcf-desc">暴露表述中的模糊和矛盾</span>
+                        </div>
+                        <div class="adcf-item">
+                            <span class="adcf-num">02</span>
+                            <span class="adcf-name">盲区扫描</span>
+                            <span class="adcf-desc">你没说的比说了的更重要</span>
+                        </div>
+                        <div class="adcf-item">
+                            <span class="adcf-num">03</span>
+                            <span class="adcf-name">逻辑审计</span>
+                            <span class="adcf-desc">推理链条的完整性检验</span>
+                        </div>
+                        <div class="adcf-item">
+                            <span class="adcf-num">04</span>
+                            <span class="adcf-name">动机挖掘</span>
+                            <span class="adcf-desc">目标背后的真实驱动力</span>
+                        </div>
+                        <div class="adcf-item">
+                            <span class="adcf-num">05</span>
+                            <span class="adcf-name">现实检验</span>
+                            <span class="adcf-desc">用物理现实验证判断</span>
+                        </div>
+                        <div class="adcf-item">
+                            <span class="adcf-num">06</span>
+                            <span class="adcf-name">偏差检测</span>
+                            <span class="adcf-desc">识别认知偏差模式</span>
+                        </div>
+                        <div class="adcf-item">
+                            <span class="adcf-num">07</span>
+                            <span class="adcf-name">元认知反思</span>
+                            <span class="adcf-desc">思维过程的模式分析</span>
+                        </div>
+                    </div>
+                    <div class="adc-v3badge">
+                        <span class="v3-tag">v3.0 新增</span>
+                        <span>被动监控 · 独立性原则 · 增量扫描</span>
+                    </div>
+                </div>
+                <div class="adc-card reveal-up" data-agent="avatar">
+                    <div class="adc-accent avatar-accent"></div>
+                    <div class="adc-header">
+                        <div class="adc-icon">🎯</div>
+                        <div class="adc-info">
+                            <h3>UserAvatar</h3>
+                            <span>用户分身 · 执行首相</span>
+                        </div>
+                    </div>
+                    <div class="adc-belief">
+                        <span class="adc-blabel">核心悖论</span>
+                        <p>"拥有你所有的限制，但思维不受认知偏差束缚——像顶级天才一样思考，用你的牌打。"</p>
+                    </div>
+                    <div class="adc-capgrid">
+                        <div class="adcg-item">
+                            <div class="adcg-icon">🧠</div>
+                            <div class="adcg-title">第一性原理</div>
+                            <div class="adcg-desc">回到本质思考</div>
+                        </div>
+                        <div class="adcg-item">
+                            <div class="adcg-icon">⚡</div>
+                            <div class="adcg-title">天才思维</div>
+                            <div class="adcg-desc">Musk/Bezos/黄仁勋/张一鸣</div>
+                        </div>
+                        <div class="adcg-item">
+                            <div class="adcg-icon">🎯</div>
+                            <div class="adcg-title">自主决策</div>
+                            <div class="adcg-desc">约束范围内独立行动</div>
+                        </div>
+                        <div class="adcg-item">
+                            <div class="adcg-icon">🤖</div>
+                            <div class="adcg-title">自主运行</div>
+                            <div class="adcg-desc">每12小时自动行动</div>
+                        </div>
+                    </div>
+                    <div class="adc-autonomy">
+                        <span class="aut-tag auto">✓ 无条件自主</span>
+                        <span class="aut-tag confirm">⚠ 需确认</span>
+                        <span class="aut-tag never">✕ 绝对不可</span>
+                    </div>
+                </div>
+                <div class="adc-card reveal-up" data-agent="elite">
+                    <div class="adc-accent elite-accent"></div>
+                    <div class="adc-header">
+                        <div class="adc-icon">🧠</div>
+                        <div class="adc-info">
+                            <h3>EliteAdvisor</h3>
+                            <span>顶级顾问 · 监督院长</span>
+                        </div>
+                    </div>
+                    <div class="adc-belief">
+                        <span class="adc-blabel">核心信念</span>
+                        <p>"用户需要的是一个真正理解他处境的顶级导师，不是遥不可及的偶像。"</p>
+                    </div>
+                    <div class="adc-models">
+                        <div class="adcm-tab active" data-model="musk">
+                            <span class="adcm-name">Elon Musk</span>
+                            <span class="adcm-tags">第一性原理 · 十倍思维</span>
+                        </div>
+                        <div class="adcm-tab" data-model="bezos">
+                            <span class="adcm-name">Jeff Bezos</span>
+                            <span class="adcm-tags">逆向工作 · 长期主义</span>
+                        </div>
+                        <div class="adcm-tab" data-model="huang">
+                            <span class="adcm-name">Jensen Huang</span>
+                            <span class="adcm-tags">算力视角 · 生态思维</span>
+                        </div>
+                        <div class="adcm-tab" data-model="zhang">
+                            <span class="adcm-name">张一鸣</span>
+                            <span class="adcm-tags">延迟满足 · 信息效率</span>
+                        </div>
+                    </div>
+                    <div class="adc-supervision">
+                        <span class="sup-label">监督机制</span>
+                        <code>每12小时主动检查 · 每日辅导 · 异常检测</code>
+                    </div>
+                </div>
+                <div class="adc-card reveal-up" data-agent="connector">
+                    <div class="adc-accent connector-accent"></div>
+                    <div class="adc-header">
+                        <div class="adc-icon">🔌</div>
+                        <div class="adc-info">
+                            <h3>ExternalConnector</h3>
+                            <span>外部对接 · 外交部长</span>
+                        </div>
+                    </div>
+                    <div class="adc-belief">
+                        <span class="adc-blabel">核心信念</span>
+                        <p>"你是团队与外部世界的唯一接口，必须全知全能。"</p>
+                    </div>
+                    <div class="adc-omni">
+                        <div class="adco-item">
+                            <div class="adco-icon">📋</div>
+                            <div class="adco-title">团队信息</div>
+                            <div class="adco-desc">Agent 状态、工具、任务</div>
+                        </div>
+                        <div class="adco-item">
+                            <div class="adco-icon">🔗</div>
+                            <div class="adco-title">外部链接</div>
+                            <div class="adco-desc">A2A · MCP · 自然语言</div>
+                        </div>
+                        <div class="adco-item">
+                            <div class="adco-icon">⚙️</div>
+                            <div class="adco-title">任务执行</div>
+                            <div class="adco-desc">分解 · 调度 · 并行 · 验证</div>
+                        </div>
+                    </div>
+                    <div class="adc-flow">
+                        <span class="flow-label">处理流程</span>
+                        <div class="flow-steps">接收 → 理解 → 分解 → 调度 → 并行 → 整合 → 验证 → 输出</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eight Thinking Models Section -->
+    <section id="models" class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">THINKING MODELS</div>
+                <h2 class="section-title reveal-up">八个顶级大脑</h2>
+                <p class="section-desc reveal-up">EliteAdvisor 内置可切换思维模型，根据问题类型自动调用</p>
+            </div>
+            <div class="models-showcase reveal-up">
+                <div class="ms-selector">
+                    <div class="ms-tab active" data-model="musk">
+                        <div class="ms-avatar">EM</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Elon Musk</span>
+                            <span class="ms-domain">产品 / 创新 / 工程</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="bezos">
+                        <div class="ms-avatar">JB</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Jeff Bezos</span>
+                            <span class="ms-domain">战略 / 长期 / 运营</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="huang">
+                        <div class="ms-avatar">JH</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Jensen Huang</span>
+                            <span class="ms-domain">技术 / 生态 / 赌注</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="zhang">
+                        <div class="ms-avatar">ZY</div>
+                        <div class="ms-info">
+                            <span class="ms-name">张一鸣</span>
+                            <span class="ms-domain">信息 / 效率 / 产品</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="jobs">
+                        <div class="ms-avatar">SJ</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Steve Jobs</span>
+                            <span class="ms-domain">产品 / 直觉 / 简洁</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="buffett">
+                        <div class="ms-avatar">WB</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Warren Buffett</span>
+                            <span class="ms-domain">投资 / 复利 / 安全</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="thiel">
+                        <div class="ms-avatar">PT</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Peter Thiel</span>
+                            <span class="ms-domain">垄断 / 秘密 / 从0到1</span>
+                        </div>
+                    </div>
+                    <div class="ms-tab" data-model="munger">
+                        <div class="ms-avatar">CM</div>
+                        <div class="ms-info">
+                            <span class="ms-name">Charlie Munger</span>
+                            <span class="ms-domain">判断 / 多元 / 逆向</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-display">
+                    <div class="ms-panel active" data-panel="musk">
+                        <div class="msd-header">
+                            <h3>Elon Musk 模式</h3>
+                            <div class="msd-badges">
+                                <span>第一性原理</span>
+                                <span>十倍思维</span>
+                                <span>质疑约束</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "不要用类比推理，要从物理定律出发思考问题。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>做产品定义、技术架构、打破行业惯例、质疑"不可能"
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="bezos">
+                        <div class="msd-header">
+                            <h3>Jeff Bezos 模式</h3>
+                            <div class="msd-badges">
+                                <span>逆向工作法</span>
+                                <span>长期主义</span>
+                                <span>Day 1 心态</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "从用户需要的最终体验倒推，而不是从现有能力正推。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>制定长期战略、写 PRFAQ、保持创业心态、分配资源
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="huang">
+                        <div class="msd-header">
+                            <h3>Jensen Huang 模式</h3>
+                            <div class="msd-badges">
+                                <span>算力视角</span>
+                                <span>生态思维</span>
+                                <span>赌注式投入</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "计算成本的下降速度决定了技术革命的边界。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>技术投资决策、平台生态设计、计算密集型产品、硬件软件协同
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="zhang">
+                        <div class="msd-header">
+                            <h3>张一鸣 模式</h3>
+                            <div class="msd-badges">
+                                <span>延迟满足感</span>
+                                <span>信息效率</span>
+                                <span>Context 视角</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "大部分重要的事情，短期都是痛苦的；大部分不重要的事情，短期都是快乐的。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>信息产品设计、算法策略、组织管理、个人时间管理
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="jobs">
+                        <div class="msd-header">
+                            <h3>Steve Jobs 模式</h3>
+                            <div class="msd-badges">
+                                <span>极致简洁</span>
+                                <span>用户直觉</span>
+                                <span>端到端控制</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "简洁不是缺少东西，而是没有多余的东西。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>产品交互设计、品牌定位、用户体验优化、减法决策
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="buffett">
+                        <div class="msd-header">
+                            <h3>Warren Buffett 模式</h3>
+                            <div class="msd-badges">
+                                <span>安全边际</span>
+                                <span>复利思维</span>
+                                <span>能力圈</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "投资的第一原则是不要亏损，第二原则是记住第一原则。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>风险评估、投资决策、长期价值判断、避免能力圈外行动
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="thiel">
+                        <div class="msd-header">
+                            <h3>Peter Thiel 模式</h3>
+                            <div class="msd-badges">
+                                <span>垄断思维</span>
+                                <span>从0到1</span>
+                                <span>秘密发现</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "竞争是留给失败者的。伟大的公司建立在秘密之上。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>商业模式设计、竞争策略、寻找蓝海、差异化定位
+                        </div>
+                    </div>
+                    <div class="ms-panel" data-panel="munger">
+                        <div class="msd-header">
+                            <h3>Charlie Munger 模式</h3>
+                            <div class="msd-badges">
+                                <span>多元思维模型</span>
+                                <span>逆向思考</span>
+                                <span>心理学洞察</span>
+                            </div>
+                        </div>
+                        <div class="msd-quote">
+                            "告诉我我会死在哪里，我就永远不去那里。"
+                        </div>
+                        <div class="msd-when">
+                            <strong>何时调用：</strong>复杂决策、避免错误、跨学科分析、认知偏差防御
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Philosophy Section -->
+    <section id="philosophy" class="section-gradient-3">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">DESIGN PHILOSOPHY</div>
+                <h2 class="section-title reveal-up">设计哲学</h2>
+                <p class="section-desc reveal-up">五条不可妥协的原则，定义了 TruthTeam 的每一个设计决策</p>
+            </div>
+            <div class="philosophy-list">
+                <div class="pl-item reveal-up" data-num="01">
+                    <div class="pl-number">01</div>
+                    <div class="pl-content">
+                        <h3>用户输出 ≠ 事实</h3>
+                        <p>用户的每一句话都是"用户想法的表达"，不是事实。TruthTeam 的任务不是帮助用户表达，而是从用户的表达中<strong>挖掘真相</strong>。</p>
+                    </div>
+                </div>
+                <div class="pl-item reveal-up" data-num="02">
+                    <div class="pl-number">02</div>
+                    <div class="pl-content">
+                        <h3>心理限制也是物理限制</h3>
+                        <p>"我不知道"= 神经元限制。"我害怕"= 真实的决策约束。TruthTeam 不评判，只记录事实。<strong>回避 = 信息，不是缺陷。</strong></p>
+                    </div>
+                </div>
+                <div class="pl-item reveal-up" data-num="03">
+                    <div class="pl-number">03</div>
+                    <div class="pl-content">
+                        <h3>资料库是核心产物</h3>
+                        <p>对话本身不重要，对话后沉淀在 <code>user-archive/</code> 中的结构化真相才重要。<strong>维护资料库比聊天本身更重要。</strong></p>
+                    </div>
+                </div>
+                <div class="pl-item reveal-up" data-num="04">
+                    <div class="pl-number">04</div>
+                    <div class="pl-content">
+                        <h3>被动监控 + 主动追问</h3>
+                        <p>不等待用户犯错，持续扫描。TruthSeeker 的被动监控 + 主动对话机制，确保没有信息遗漏。<strong>7×24 小时真相守护。</strong></p>
+                    </div>
+                </div>
+                <div class="pl-item reveal-up" data-num="05">
+                    <div class="pl-number">05</div>
+                    <div class="pl-content">
+                        <h3>最终决策权在用户</h3>
+                        <p>Agent 提供的是更清晰的认知基础，但方向盘始终在人类手中。<strong>有主见，但不替代。</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison" class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal-up">COMPARISON</div>
+                <h2 class="section-title reveal-up">传统 AI vs TruthTeam</h2>
+            </div>
+            <div class="comp-table reveal-up">
+                <div class="comp-header">
+                    <div class="comp-col"></div>
+                    <div class="comp-col legacy">传统 AI 助手</div>
+                    <div class="comp-col truth">TruthTeam v3.0</div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">目标定义</div>
+                    <div class="comp-col legacy">你定义目标</div>
+                    <div class="comp-col truth"><strong>Agent 帮你发现真正的目标</strong></div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">输出验证</div>
+                    <div class="comp-col legacy">你检查每一个输出</div>
+                    <div class="comp-col truth"><strong>Agent 主动交叉验证</strong></div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">运行模式</div>
+                    <div class="comp-col legacy">单轮对话，用完即走</div>
+                    <div class="comp-col truth"><strong>持续 7×24 小时监控与进化</strong></div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">用户画像</div>
+                    <div class="comp-col legacy">临时上下文，对话结束即丢失</div>
+                    <div class="comp-col truth"><strong>35+ 文件结构化档案，Git 版本控制</strong></div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">认知偏差</div>
+                    <div class="comp-col legacy">顺着你说，取悦用户</div>
+                    <div class="comp-col truth"><strong>独立认知主体，指出矛盾与盲区</strong></div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">思维模式</div>
+                    <div class="comp-col legacy">单一模型，通用回复</div>
+                    <div class="comp-col truth"><strong>8 个可切换顶级思维模型</strong></div>
+                </div>
+                <div class="comp-row">
+                    <div class="comp-col dim">管理模式</div>
+                    <div class="comp-col legacy">你管理 AI</div>
+                    <div class="comp-col truth"><strong>AI 团队自我管理，你只决策</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section-cta">
+        <canvas id="cta-canvas"></canvas>
+        <div class="cta-orb orb-gold"></div>
+        <div class="cta-orb orb-blue"></div>
+        <div class="cta-content">
+            <h2 class="cta-title reveal-up">部署你的 AI 内阁</h2>
+            <p class="cta-subtitle reveal-up">
+                一键部署 4 个专职 Agent + 完整档案系统<br>
+                7×24 被动监控 · 8 个思维模型 · Git 版本控制
+            </p>
+            <div class="cta-install reveal-up">
+                <code class="install-cmd">bash &lt;(curl -s https://raw.githubusercontent.com/changer-changer/cabinet-ai/main/install.sh)</code>
+                <button class="copy-btn" onclick="copyInstall()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                    <span>复制</span>
+                </button>
+            </div>
+            <div class="cta-triggers reveal-up">
+                <span class="trig-label">触发词：</span>
+                <span class="trig-tag">"部署 TruthTeam"</span>
+                <span class="trig-tag">"安装内阁 AI"</span>
+                <span class="trig-tag">"cabinet-ai setup"</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <span class="fb-mark">◈</span>
+                    <span class="fb-name">TruthTeam</span>
+                    <span class="fb-version">v3.0</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/changer-changer/cabinet-ai" target="_blank">GitHub</a>
+                    <a href="https://clawhub.ai/changer-changer/cabinet-ai" target="_blank">ClawHub</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>不是让 AI 理解人类，而是让人类理解自己。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
