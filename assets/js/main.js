@@ -1,5 +1,5 @@
 /**
- * TruthTeam v3.0 Showcase — Interactive JavaScript
+ * TruthTeam v4.0 Showcase — Interactive JavaScript
  * Particle networks, scroll animations, tabs, counters
  */
 

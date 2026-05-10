@@ -1,5 +1,5 @@
 /* ========================================
-   TruthTeam v3.0 Showcase
+   TruthTeam v4.0 Showcase
    Archive & Think Tank Aesthetic
    ======================================== */
 
@@ -1555,6 +1555,28 @@ section { position: relative; padding: 7rem 0; scroll-margin-top: 80px; }
 }
 .copy-btn:hover { border-color: var(--accent-gold); color: var(--text-primary); }
 .copy-btn.copied { border-color: var(--accent-green); color: var(--accent-green); }
+.cta-dryrun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: rgba(74, 144, 226, 0.04);
+    border: 1px solid rgba(74, 144, 226, 0.15);
+    border-radius: 12px;
+}
+.dryrun-label { color: var(--accent-blue); font-size: 0.8rem; font-weight: 600; }
+.dryrun-cmd {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    background: rgba(0,0,0,0.3);
+    padding: 0.35rem 0.7rem;
+    border-radius: 6px;
+}
+.dryrun-desc { color: var(--text-muted); font-size: 0.75rem; }
 .cta-triggers {
     display: flex;
     align-items: center;
